@@ -30,7 +30,7 @@ app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
 
-const server = app.listen(process.env.PORT || 4000, () => console.log(`Example app listening on port ${process.env.PORT}!`));
+const server = app.listen(process.env.PORT || 5002, () => console.log(`Example app listening on port ${process.env.PORT}!`));
 
 const io = require('socket.io')(server,
     {
