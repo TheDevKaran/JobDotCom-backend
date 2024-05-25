@@ -37,7 +37,7 @@ const io = require('socket.io')(server,
         pingTimeout: 60000,
         cors: {
             // origin: "http:localhost:5001",
-            origin: "",
+            origin: "https://job-dot-com-backend.vercel.app/",
         },
     });
 
